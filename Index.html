@@ -1,0 +1,428 @@
+<!doctype html><html><head> 
+  <title>netflix | watch tv shows and movies</title> 
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&amp;display=swap" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css2?family=Baloo+Thambi+2:wght@500&amp;display=swap" rel="stylesheet"> 
+  <link href="/storage/emulated/0/Fontawsome/fontawesome-free-5.13.0-web/fontawesome-free-5.13.0-web/css/all.min.css" rel="stylesheet"> 
+ <style type="text/css" id="dcoder_stylesheet">:root{
+  --redcolor:#F30808;
+  --blackcolor:#080808;
+  --lightblack:#292726;
+  --whitecolor:#F1F1F1;
+  --greycolor:#242424;
+}
+h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.8em;
+  line-height:1.2em;
+  
+  
+}
+p{
+font-family: 'Montserrat', sans-serif;
+font-size:1.3em;
+line-height:1.2em;
+}
+ul{
+  text-decoration:none;
+  
+}
+li{
+  list-style:none;
+}
+a{
+  text-decoration:none;
+}
+
+body{
+  padding:0;
+  margin:0;
+}
+
+*{
+  box-sizing:border-box;
+  color:var(--whitecolor);
+  background-color:var(--blackcolor);
+  
+}
+a{
+  background:transparent;
+}
+img{
+  background-color:var(--blackcolor);
+  
+}
+.head{
+  background:url("background.jpg");
+background-repeat:no-repeat;
+background-size:cover;
+height:44vh;
+box-shadow:inset 60px 60px  100px black;
+}
+.nav_bar{
+  width:100vw;
+  height:100px;
+  position:relative;
+  display:block;
+  
+  background:transparent;
+  
+}
+.nav_bar > img{
+  position:absolute;
+  left:5%;
+  top:50%;
+  transform:translate(-0%,-50%);
+  width:170px;
+  background:transparent;
+}  
+.nav_bar > button{
+  background:var(--redcolor);
+  text-align:center;
+  width:80px;
+  height:35px;
+  border:1px solid black;
+  font-family: 'Montserrat', sans-serif;
+  position:absolute;
+  right:0;
+  top:50%;
+  transform:translate(-50%,-50%);
+  border-radius:6px;
+  font-size:14px;
+  letter-spacing:1px;
+  
+}
+.content,h1,p{
+  background:transparent;
+  
+}
+.head{
+  position:relative;
+}
+.content{
+  
+  text-align:center;
+  position:absolute;
+  top:50%;
+  left:50%;
+  transform:translate(-50%,-50%);
+}
+input{
+  width:350px;
+  height:3.3em;
+  background:white;
+  color:black;
+  outline:none;
+  
+  
+}
+input[type="text"]{
+  padding:0px 10px;
+}
+.btn{
+  width:130px;
+  height:2.7em;
+  background:var(--redcolor);
+  text-transform:uppercase;
+  font-weight:bold;
+  
+  display:inline-block;
+  vertical-align:middle;
+  line-height:46px;  
+  left:-4px;
+  position:relative;
+ 
+  
+  }
+  
+
+.pa{
+  font-size:1em;
+}
+
+
+
+.box{
+  display:grid;
+  grid-template-columns:1fr 1fr;
+  width:100vw;
+  height:28vh;
+  
+  border-top:8px solid var(--greycolor);
+}
+
+
+.item{
+  padding:50px 30px;
+ 
+  display:block;
+  
+  
+}
+.box .item h1{
+  font-family: 'Montserrat', sans-serif;
+  font-size:2.8em;
+  line-height:1.2em;
+  color:white;
+  
+}
+.box .item p{
+font-family: 'Montserrat', sans-serif;
+font-size:1.5em;
+line-height:1.2em;
+}
+.imgitem{
+  width:45vw;
+  background-size:cover;
+  padding:2vh 2.5vw;
+
+}
+.extra{
+  border-top:8px solid var(--greycolor);
+  width:100vw;
+  height:auto;
+}
+.extra_content{
+ display:block;
+ 
+ width:70vw;
+ margin-left:auto;
+ margin-right:auto;
+  
+}
+.extra_content p{
+  background:#242424;
+  padding:1em;
+  width:70vw;
+  margin:10px 0px 5px 0px;
+  cursor:pointer;
+}
+.extra_content .pa{
+  width:100%;
+  background:none;
+  padding:3px;
+  font-size:1.3em;
+  text-align:center;
+}
+.extra_content input{
+ 
+  
+  width:56vw;
+  margin-top:30px;
+  
+  
+}
+.extra_content h1{
+  text-align:center;
+}
+footer div li{
+  width:18vw;
+  padding:0.3em;
+  display:inline-block;
+  baclground:transparent;
+  margin:0.4em;
+  
+}
+footer div li a{
+  background:transparent;
+  color:#ccc;
+}
+footer{
+ border-top:8px solid var(--greycolor);
+ width:100vw;
+ height:25vh;
+ padding:8vw;
+ overflow:hidden;
+ position:relative;
+}
+footer div{
+  display:block;
+  width:84vw;
+  position:absolute;
+  bottom:0;
+  
+ 
+}
+.link1{
+  display:block;
+  margin:30px 50px;
+  font-family:'Montserrat', sans-serif;
+}
+.p1{
+  margin:0px 50px 30px 50px;
+  padding-top:20px;
+  font-family:'Montserrat', sans-serif;
+}
+.extra_content .btn{
+  text-align:center;
+}
+p i{
+  display:block;
+  float:right;
+  background:#242424;
+  
+  
+}
+.btn i{
+  background:red;
+  padding-left:10px;
+  color:#ccc;
+}
+#ctn1,#ctn2,#ctn3,#ctn4,#ctn5{
+  background:#242424;
+  padding:1em;
+  display:none;
+  font-family: sans-serif;
+  font-size:1.4em;
+  line-height:1.4em;
+  
+}</style></head> 
+ <body> 
+  <header class="head"> 
+   <div class="nav_bar"> 
+    <img src="netflix_logo.png"> 
+    <button><a href="sign_in.html">sign in</a></button> 
+   </div> 
+   <div class="content"> 
+    <h1>unlimited movies,TV shows and more.</h1> 
+    <p>watch anywhere.cancel anytime.</p> 
+    <input type="text" placeholder="enter email" name="enter email"> 
+    <label class="btn">try it now<i class="fas fa-greater-than"></i></label> 
+    <p class="pa">ready to watch? enter you mail or access your account.</p> 
+   </div> 
+  </header> 
+  <section> 
+   <div class="box box1"> 
+    <div class="item"> 
+     <h1>Enjoy on your TV.</h1> 
+     <p>Watch on smart TVs, PlayStation, Xbox, Chromecast, Apple TV, Blu-ray players and more. </p> 
+    </div> 
+    <div class="item item1"> 
+     <img src="strange3.jpg" class="imgitem"> 
+    </div> 
+   </div> 
+   <!--________--> 
+   <div class="box box2"> 
+    <div class="item item1 "> 
+     <img src="strange2.jpg" class="imgitem"> 
+    </div> 
+    <div class="item"> 
+     <h1>Download your shows to watch on the go.</h1> 
+     <p>Save your data and watch all your favourites offline.</p> 
+    </div> 
+   </div> 
+   <!--_______--> 
+   <div class="box box3"> 
+    <div class="item"> 
+     <h1>Watch everywhere.</h1> 
+     <p>Stream unlimited movies and TV shows on your phone, tablet, laptop, and TV without paying more. </p> 
+    </div> 
+    <div class="item item1"> 
+     <img src="strange4.jpg" class="imgitem"> 
+    </div> 
+   </div> 
+   <!--______--> 
+  </section> 
+  <div class="extra"> 
+   <div class="extra_content"> 
+    <h1>Frequently Asked question</h1> 
+    <p class="btn1">What is Netflix?<i class="fas fa-plus"></i></p> 
+    <div id="ctn1">
+      Netflix is a streaming service that offers a wide variety of award-winning TV shows, movies, anime, documentaries and more – on thousands of internet-connected devices. 
+     <br> 
+     <br> You can watch as much as you want, whenever you want, without a single ad – all for one low monthly price. There's always something new to discover, and new TV shows and movies are added every week! 
+    </div> 
+    <p class="btn2"> How much does Netflix cost?<i class="fas fa-plus"> </i> </p> 
+    <div id="ctn2">
+      Watch Netflix on your smartphone, tablet, smart TV, laptop or streaming device, all for one low fixed monthly fee. Plans start from ₹ 199 a month. No extra costs or contracts. 
+    </div> 
+    <p class="btn3"> Where can I watch?<i class="fas fa-plus"> </i></p> 
+    <div id="ctn3">
+      Watch anywhere, anytime, on an unlimited number of devices. Sign in with your Netflix account to watch instantly on the web at netflix.com from your personal computer or on any internet-connected device that offers the Netflix app, including smart TVs, smartphones, tablets, streaming media players and game consoles. 
+     <br> 
+     <br> You can also download your favourite shows with the iOS, Android, or Windows 10 app. Use downloads to watch while you're on the go and without an internet connection. Take Netflix with you anywhere. 
+    </div> 
+    <p class="btn4"> How do I cancel<i class="fas fa-plus"></i></p> 
+    <div id="ctn4">
+      Netflix is flexible. There are no annoying contracts and no commitments. You can easily cancel your account online in two clicks. There are no cancellation fees – start or stop your account anytime. 
+    </div> 
+    <p class="btn5"> What can i watch on Netflix?<i class="fas fa-plus"></i></p> 
+    <div id="ctn5">
+      Netflix has an extensive library of feature films, documentaries, TV shows, anime, award-winning Netflix originals, and more. Watch as much as you want, anytime you want. 
+    </div> 
+    <input type="text" placeholder="enter email"> 
+    <label class="btn">Try it Now<i class="fas fa-greater-than"></i></label> 
+    <p class="pa">ready to watch? enter you mail or access your account.</p> 
+   </div> 
+  </div> 
+  <footer> 
+   <div> 
+    <a href="#" class="link1">questions?contact us</a> 
+    <ul> 
+     <li><a href="#">FAQ</a></li> 
+     <li><a href="#">Help center</a></li> 
+     <li><a href="#">Account</a></li> 
+     <li><a href="#">Media center</a></li> 
+     <li><a href="#">Investors Relations</a></li> 
+     <li><a href="#">Jobs</a></li> 
+     <li><a href="#">Ways to Watch</a></li> 
+     <li><a href="#">Terms of use</a></li> 
+     <li><a href="#">Privacy</a></li> 
+     <li><a href="#">cookie preferences</a></li> 
+     <li><a href="#">corporate onformation</a></li> 
+     <li><a href="#">contact us</a></li> 
+     <li><a href="#">speed test</a></li> 
+     <li><a href="#">Legal notices</a></li> 
+     <li><a href="#">Netflix Originals</a></li> 
+    </ul> 
+    <p class="p1">NETFLIX INDIA</p> 
+   </div> 
+  </footer> 
+ 
+<script type="text/javascript" id="dcoder_script">var A1 = document.querySelector('.extra_content .btn1');
+var B1 = document.querySelector('.extra_content .btn2');
+var C1 = document.querySelector('.extra_content .btn3');
+var D1 = document.querySelector('.extra_content .btn4');
+var E1 = document.querySelector('.extra_content .btn5');
+A1.addEventListener('click',myfunction1);
+B1.addEventListener('click',myfunction2);
+C1.addEventListener('click',myfunction3);
+D1.addEventListener('click',myfunction4);
+E1.addEventListener('click',myfunction5);
+function myfunction1(){
+  const A2 = A1.nextElementSibling;
+  A2.style.display="block";
+  const A3 = A1.lastElementChild;
+  A3.ClassName="fas";
+  A3.classList.add('fa-times');
+}
+
+function myfunction2(){
+  const A2 = B1.nextElementSibling;
+  A2.style.display="block";
+  const A3 = B1.lastElementChild;
+  A3.ClassName="fas";
+  A3.classList.add('fa-times');
+}
+
+
+function myfunction3(){
+  const A2 = C1.nextElementSibling;
+  A2.style.display="block";
+  const A3 = C1.lastElementChild;
+  A3.ClassName="fas";
+  A3.classList.add('fa-times');
+}
+function myfunction4(){
+  const A2 = D1.nextElementSibling;
+  A2.style.display="block";
+  const A3 = D1.lastElementChild;
+  A3.ClassName="fas";
+  A3.classList.add('fa-times');
+}
+function myfunction5(){
+  const A2 = E1.nextElementSibling;
+  A2.style.display="block";
+  const A3 = E1.lastElementChild;
+  A3.ClassName="fas";
+  A3.classList.add('fa-times');
+}</script></body></html>
